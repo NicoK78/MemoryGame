@@ -1,0 +1,22 @@
+@font-face {
+	font-family: mickey-webfont;
+	src: url('../font/mickey-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1,h3 {
+	font-family: mickey-webfont;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+
+div {
+	margin-right: auto;
+	margin-left: auto;
+	height: 200px;
+	width: 80%;
+	background-color: black;
+}
