@@ -11,12 +11,24 @@ h1,h3 {
 	width: 100%;
 	text-align: center;
 	font-weight: bold;
+	position: relative;
 }
 
-div {
+div.contain {
+	max-width: 780px;
+	height: auto;
+	position: relative;
+
 	margin-right: auto;
 	margin-left: auto;
-	height: 200px;
-	width: 80%;
+	
 	background-color: black;
+	padding: 5px;
+}
+
+img {
+	width: 120px;
+	height: 120px;
+	margin: 5px;
+	display: inline;
 }
